@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Copa",
+    "type": "DRINK",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Copa"
+  },
+  {
+    "id": "2",
+    "name": "Refresco / Agua",
+    "type": "SODA",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Refresco / Agua"
+  },
+  {
+    "id": "3",
+    "name": "Cerveza",
+    "type": "SHOT",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Cerveza"
+  },
+  {
+    "id": "4",
+    "name": "Chupito",
+    "type": "SHOT",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Chupito"
+  }
+]
