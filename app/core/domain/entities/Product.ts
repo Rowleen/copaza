@@ -1,8 +1,8 @@
 export enum ProductEnum {
-  COPA = "COPA",
-  CERVEZA = "CERVEZA",
-  REFRESCO = "REFRESCO",
-  CHUPITO = "CHUPITO",
+  DRINK = "DRINK",
+  SHOT = "SHOT",
+  SODA = "SODA",
+  BEER = "BEER",
 }
 
 export interface Product {
@@ -10,7 +10,19 @@ export interface Product {
   name: string;
   type: ProductEnum;
   price: number;
-  quantity: number;
   image: string;
   description: string;
+}
+
+export interface Drink extends Product {
+  type: ProductEnum.DRINK;
+}
+export interface Shot extends Product {
+  type: ProductEnum.SHOT;
+}
+export interface Soda extends Product {
+  type: ProductEnum.SODA;
+}
+export interface Beer extends Product {
+  type: ProductEnum.BEER;
 }
