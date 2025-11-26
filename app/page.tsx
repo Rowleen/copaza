@@ -11,6 +11,9 @@ import { AzAccounting } from "@/types/AzAccounting";
 
 import productsData from "@/data/products.json";
 import drinksData from "@/data/drinks.json";
+import shotsData from "@/data/shots.json";
+import sodasData from "@/data/sodas.json";
+import beersData from "@/data/beers.json";
 
 enum StepEnum {
   SELECT_PRODUCT = "SELECT_PRODUCT",
@@ -26,6 +29,7 @@ export default function Home() {
   const [drink, setDrink] = useState<Product | null>(null);
   const [soda, setSoda] = useState<Product | null>(null);
   const [beer, setBeer] = useState<Product | null>(null);
+  const [shot, setShot] = useState<Product | null>(null);
   const [azAccounting, setAzAccounting] = useState<AzAccounting | null>(null);
 
   const renderIcon = (product: Product) => {
@@ -96,6 +100,33 @@ export default function Home() {
               renderIcon={renderIcon}
             />
           </>
+        )}
+
+        {product && product.type === ProductEnum.SODA && (
+          <SectionProduct
+            title="Soda"
+            products={sodasData as Product[]}
+            onClick={handleProductTypeClick}
+            renderIcon={renderIcon}
+          />
+        )}
+
+        {product && product.type === ProductEnum.BEER && (
+          <SectionProduct
+            title="Beer"
+            products={beersData as Product[]}
+            onClick={handleProductTypeClick}
+            renderIcon={renderIcon}
+          />
+        )}
+
+        {product && product.type === ProductEnum.SHOT && (
+          <SectionProduct
+            title="Shot"
+            products={shotsData as Product[]}
+            onClick={handleProductTypeClick}
+            renderIcon={renderIcon}
+          />
         )}
       </section>
     </div>
