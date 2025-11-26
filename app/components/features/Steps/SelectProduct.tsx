@@ -1,51 +1,52 @@
 import { FC } from "react";
-import { Beer, GlassWater, Martini, TestTube } from "lucide-react";
+import { Beer, GlassWater, Martini } from "lucide-react";
 
 import Card from "@/components/ui/Card/Card";
 
-import { ProductEnum } from "@/entities/Product";
+import { ProductEnum, Product } from "@/entities/Product";
 
 interface SelectProductProps {
-  onSelectProduct: (product: ProductEnum) => void;
+  products: Product[];
+  onSelectProductType: (product: ProductEnum) => void;
 }
 
-const SelectProduct: FC<SelectProductProps> = ({ onSelectProduct }) => {
+const SelectProduct: FC<SelectProductProps> = ({
+  products,
+  onSelectProductType,
+}) => {
   const handleSelectProduct = (event: React.MouseEvent<HTMLDivElement>) => {
     const productType = event.currentTarget.dataset.productType as ProductEnum;
 
-    onSelectProduct(productType);
+    onSelectProductType(productType);
+  };
+
+  const renderIcon = (product: Product) => {
+    switch (product.type) {
+      case ProductEnum.DRINK:
+        return <Martini className="w-20 h-20" />;
+      case ProductEnum.SHOT:
+        return <Beer className="w-20 h-20" />;
+      case ProductEnum.SODA:
+        return <GlassWater className="w-20 h-20" />;
+      case ProductEnum.BEER:
+        return <Beer className="w-20 h-20" />;
+      default:
+        return <Martini className="w-20 h-20" />;
+    }
   };
 
   return (
     <section className="w-full h-full">
       <div className="grid grid-cols-2 gap-8 items-center justify-center">
-        <Card
-          title="Copa"
-          icon={<Martini className="w-20 h-20" />}
-          onClick={handleSelectProduct}
-          dataProductType={ProductEnum.COPA}
-        />
-
-        <Card
-          title="Cerveza"
-          icon={<Beer className="w-20 h-20" />}
-          onClick={handleSelectProduct}
-          dataProductType={ProductEnum.CERVEZA}
-        />
-
-        <Card
-          title="Refresco / Agua"
-          icon={<GlassWater className="w-20 h-20" />}
-          onClick={handleSelectProduct}
-          dataProductType={ProductEnum.REFRESCO}
-        />
-
-        <Card
-          title="Chupito"
-          icon={<TestTube className="w-20 h-20" />}
-          onClick={handleSelectProduct}
-          dataProductType={ProductEnum.CHUPITO}
-        />
+        {products.map((product) => (
+          <Card
+            key={product.id}
+            title={product.name}
+            icon={renderIcon(product)}
+            onClick={handleSelectProduct}
+            dataProductType={product.type}
+          />
+        ))}
       </div>
     </section>
   );
