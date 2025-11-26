@@ -22,7 +22,8 @@
       "@/*": ["./*"],
       "@/components/*": ["./app/components/*"],
       "@/entities/*": ["./app/core/domain/entities/*"],
-      "@/data/*": ["./app/data/*"]
+      "@/data/*": ["./app/data/*"],
+      "@/types/*": ["./app/types/*"]
     }
   },
   "include": [
