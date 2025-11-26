@@ -2,11 +2,11 @@ import { ReactElement } from "react";
 
 import Card from "@/components/ui/Card/Card";
 
-import { Product } from "@/entities/Product";
+import { Product, Drink, Soda, Beer, Shot, Other } from "@/entities/Product";
 
 interface SectionProductProps {
   title: string;
-  products: Product[];
+  products: Product[] | Drink[] | Soda[] | Beer[] | Shot[] | Other[];
   onClick: (product: Product) => void;
   renderIcon: (product: Product) => ReactElement;
 }
