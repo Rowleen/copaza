@@ -19,7 +19,6 @@ import {
   Shot,
   Soda,
   Beer,
-  Other,
   SubTypeProduct,
 } from "@/entities/Product";
 import { AzAccounting } from "@/types/AzAccounting";
