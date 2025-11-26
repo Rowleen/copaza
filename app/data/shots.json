@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Jose Cuervo",
+    "type": "SHOT",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Jose Cuervo"
+  },
+  {
+    "id": "2",
+    "name": "Jaggermeister",
+    "type": "SHOT",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Jaggermeister"
+  }
+]

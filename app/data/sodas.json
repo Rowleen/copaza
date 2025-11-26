@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "name": "Coca Cola",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Coca Cola"
+  },
+  {
+    "id": "2",
+    "name": "Colca Cola Zero",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Colca Cola Zero"
+  },
+  {
+    "id": "3",
+    "name": "Sprite",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Sprite"
+  },
+  {
+    "id": "4",
+    "name": "Fanta Naranja",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Fanta Naranja"
+  },
+  {
+    "id": "5",
+    "name": "Fanta Limón",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Fanta Limón"
+  },
+  {
+    "id": "6",
+    "name": "Tónica normal",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Tónica normal"
+  },
+  {
+    "id": "7",
+    "name": "Tónica rosa",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Tónica rosa"
+  },
+  {
+    "id": "8",
+    "name": "Tónica shewppes rosa zero",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Tónica shewppes rosa zero"
+  },
+  {
+    "id": "9",
+    "name": "Tónica pomelo menta",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Tónica pomelo menta"
+  },
+  {
+    "id": "10",
+    "name": "Redbull",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Redbull"
+  },
+  {
+    "id": "11",
+    "name": "Fuztea",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Fuztea"
+  },
+  {
+    "id": "12",
+    "name": "Fuztea maracuyá",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Fuztea maracuyá"
+  },
+  {
+    "id": "13",
+    "name": "Aquarius limón",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Aquarius limón"
+  },
+  {
+    "id": "14",
+    "name": "Aquarius naranja",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Aquarius naranja"
+  },
+  {
+    "id": "15",
+    "name": "Aquarius melocotón",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Aquarius pomelo"
+  },
+  {
+    "id": "16",
+    "name": "Ginger Ale",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Ginger Ale"
+  },
+  {
+    "id": "17",
+    "name": "Soda",
+    "type": "REFRESCO",
+    "price": 3,
+    "image": "https://via.placeholder.com/150",
+    "description": "Soda"
+  }
+]

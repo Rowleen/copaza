@@ -1,0 +1,250 @@
+{
+  "rum": [
+    {
+      "id": "1",
+      "name": "Cacique",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Cacique"
+    },
+    {
+      "id": "2",
+      "name": "Barceló",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Barceló"
+    },
+    {
+      "id": "3",
+      "name": "Santa Teresa",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Santa Teresa"
+    },
+    {
+      "id": "4",
+      "name": "Flor de Caña 7 Años",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Flor de Caña 7 Años"
+    },
+    {
+      "id": "5",
+      "name": "Brugal",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Brugal"
+    },
+    {
+      "id": "6",
+      "name": "Havana 7",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Havana 7"
+    },
+    {
+      "id": "7",
+      "name": "Legendario",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Legendario"
+    },
+    {
+      "id": "8",
+      "name": "Viejo de Caldas",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Viejo de Calda"
+    },
+    {
+      "id": "9",
+      "name": "Malibú",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Malibú"
+    }
+  ],
+  "whiskey": [
+    {
+      "id": "1",
+      "name": "Jack Daniel's",
+      "type": "COPA",
+      "price": 12,
+      "image": "https://via.placeholder.com/150",
+      "description": "Jack Daniel's"
+    },
+    {
+      "id": "2",
+      "name": "DYC",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "DYC"
+    },
+    {
+      "id": "3",
+      "name": "Black Label",
+      "type": "COPA",
+      "price": 12,
+      "image": "https://via.placeholder.com/150",
+      "description": "Black Label"
+    },
+    {
+      "id": "4",
+      "name": "Johnnie Walker Red Label",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Johnnie Walker"
+    },
+    {
+      "id": "5",
+      "name": "Ballantines",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Ballantines"
+    },
+    {
+      "id": "6",
+      "name": "Jameson",
+      "type": "COPA",
+      "price": 12,
+      "image": "https://via.placeholder.com/150",
+      "description": "Jameson"
+    }
+  ],
+  "gin": [
+    {
+      "id": "1",
+      "name": "Bombay Sapphire",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Bombay Sapphire"
+    },
+    {
+      "id": "2",
+      "name": "Beefeater",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Beefeater"
+    },
+    {
+      "id": "3",
+      "name": "Tanqueray",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Tanqueray"
+    },
+    {
+      "id": "4",
+      "name": "Gordon's",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Gordon's"
+    },
+    {
+      "id": "5",
+      "name": "Hendrick's",
+      "type": "COPA",
+      "price": 12,
+      "image": "https://via.placeholder.com/150",
+      "description": "Hendrick's"
+    },
+    {
+      "id": "6",
+      "name": "Larios",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Larios"
+    },
+    {
+      "id": "7",
+      "name": "Larios 12",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Larios 12"
+    },
+    {
+      "id": "8",
+      "name": "Larios Rose",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Larios Rose"
+    },
+    {
+      "id": "9",
+      "name": "Puerto de Indias",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Puerto de Indias"
+    },
+    {
+      "id": "10",
+      "name": "Martin Miller's",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Martin Miller's"
+    },
+    {
+      "id": "11",
+      "name": "Seagram's",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Seagram's"
+    },
+    {
+      "id": "12",
+      "name": "Brokmans",
+      "type": "COPA",
+      "price": 12,
+      "image": "https://via.placeholder.com/150",
+      "description": "Brokmans"
+    }
+  ],
+  "vodka": [
+    {
+      "id": "1",
+      "name": "Absolut",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Absolut"
+    },
+    {
+      "id": "2",
+      "name": "Eristoff",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Eristoff"
+    },
+    {
+      "id": "3",
+      "name": "Smirnoff",
+      "type": "COPA",
+      "price": 10,
+      "image": "https://via.placeholder.com/150",
+      "description": "Smirnoff"
+    }
+  ]
+}
