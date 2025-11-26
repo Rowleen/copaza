@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Beer, GlassWater, Martini } from "lucide-react";
+import { Beer, GlassWater, Martini, TestTube } from "lucide-react";
 
 import Card from "@/components/ui/Card/Card";
 
@@ -42,7 +42,7 @@ const SelectProduct: FC<SelectProductProps> = ({ onSelectProduct }) => {
 
         <Card
           title="Chupito"
-          icon={<GlassWater className="w-20 h-20" />}
+          icon={<TestTube className="w-20 h-20" />}
           onClick={handleSelectProduct}
           dataProductType={ProductEnum.CHUPITO}
         />
