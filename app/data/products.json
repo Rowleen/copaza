@@ -18,7 +18,7 @@
   {
     "id": "3",
     "name": "Cerveza",
-    "type": "SHOT",
+    "type": "BEER",
     "price": 3,
     "image": "https://via.placeholder.com/150",
     "description": "Cerveza"

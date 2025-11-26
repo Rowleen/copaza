@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Corona",
-    "type": "CERVEZA",
+    "type": "BEER",
     "price": 4,
     "image": "https://via.placeholder.com/150",
     "description": "Corona"
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "name": "Budweiser",
-    "type": "CERVEZA",
+    "type": "BEER",
     "price": 4,
     "image": "https://via.placeholder.com/150",
     "description": "Budweiser"
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "name": "Heineken",
-    "type": "CERVEZA",
+    "type": "BEER",
     "price": 4,
     "image": "https://via.placeholder.com/150",
     "description": "Heineken"
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "name": "Ambar triple zero",
-    "type": "CERVEZA",
+    "type": "BEER",
     "price": 4,
     "image": "https://via.placeholder.com/150",
     "description": "Ambar triple zero"
