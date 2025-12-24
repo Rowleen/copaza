@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Jose Cuervo",
+    "price": 3,
+    "type": "shoot"
+  },
+  {
+    "id": 2,
+    "name": "Jägermeister",
+    "price": 3,
+    "type": "shoot"
+  }
+]

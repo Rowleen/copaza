@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Coca Cola",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 2,
+    "name": "Sprite",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 3,
+    "name": "Fanta naranja",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 4,
+    "name": "Fanta limón",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 5,
+    "name": "Colca Cola Zero",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 6,
+    "name": "Tónica Nordic",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 7,
+    "name": "Tónica Bliss Rosa",
+    "price": 3,   
+    "type": "soda"
+  },
+  {
+    "id": 8,
+    "name": "Tónica Bliss Azul",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 9,
+    "name": "Tónica Bliss Melocotón Menta",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 10,
+    "name": "Tónica Shewppes Rosa Zero",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 11,
+    "name": "Fuztea / Nestea",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 12,
+    "name": "Fuztea maracuyá",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 13,
+    "name": "Aqurius limón",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 14,
+    "name": "Aqurius naranja",
+    "price": 3,
+    "type": "soda"
+  },
+  {
+    "id": 15,
+    "name": "Redbull",
+    "price": 3,
+    "type": "soda"
+  }
+]

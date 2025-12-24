@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "consumption": "Copa"
+  },
+  {
+    "id": 2,
+    "consumption": "Cerveza"
+  },
+  {
+    "id": 3,
+    "consumption": "Refresco"
+  },
+  {
+    "id": 4,
+    "consumption": "Chupito"
+  }
+]
