@@ -1,5 +1,17 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { getPunkSongs } from '@/data/demo.punk-songs'
+import { createServerFn } from '@tanstack/react-start'
+
+const getPunkSongs = createServerFn({
+  method: 'GET',
+}).handler(() => [
+  { id: 1, name: 'Teenage Dirtbag', artist: 'Wheatus' },
+  { id: 2, name: 'Smells Like Teen Spirit', artist: 'Nirvana' },
+  { id: 3, name: 'The Middle', artist: 'Jimmy Eat World' },
+  { id: 4, name: 'My Own Worst Enemy', artist: 'Lit' },
+  { id: 5, name: 'Fat Lip', artist: 'Sum 41' },
+  { id: 6, name: 'All the Small Things', artist: 'blink-182' },
+  { id: 7, name: 'Beverly Hills', artist: 'Weezer' },
+])
 
 export const Route = createFileRoute('/demo/start/ssr/full-ssr')({
   component: RouteComponent,
@@ -18,21 +30,23 @@ function RouteComponent() {
       }}
     >
       <div className="w-full max-w-2xl p-8 rounded-xl backdrop-blur-md bg-black/50 shadow-xl border-8 border-black/10">
-        <h1 className="text-3xl font-bold mb-6 text-purple-400">
+        <h1 className="text-3xl font-bold mb-6 text-cyan-400">
           Full SSR - Punk Songs
         </h1>
         <ul className="space-y-3">
-          {punkSongs.map((song) => (
-            <li
-              key={song.id}
-              className="bg-white/10 border border-white/20 rounded-lg p-4 backdrop-blur-sm shadow-md"
-            >
-              <span className="text-lg text-white font-medium">
-                {song.name}
-              </span>
-              <span className="text-white/60"> - {song.artist}</span>
-            </li>
-          ))}
+          {punkSongs.map(
+            (song: { id: number; name: string; artist: string }) => (
+              <li
+                key={song.id}
+                className="bg-white/10 border border-white/20 rounded-lg p-4 backdrop-blur-sm shadow-md"
+              >
+                <span className="text-lg text-white font-medium">
+                  {song.name}
+                </span>
+                <span className="text-white/60"> - {song.artist}</span>
+              </li>
+            ),
+          )}
         </ul>
       </div>
     </div>
