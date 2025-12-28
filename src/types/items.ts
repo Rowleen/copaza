@@ -2,7 +2,7 @@ export enum ItemType {
   DRINK,
   BEER,
   SODA,
-  SHOOT
+  SHOOT,
 }
 
 export enum SubType {
