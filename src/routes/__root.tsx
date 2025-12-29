@@ -2,9 +2,10 @@ import { HeadContent, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
-import Header from '../components/Header'
+import Header from '@/components/layout/Header'
+import NotFound from '@/components/layout/NotFound'
 
-import appCss from '../styles.css?url'
+import appCss from '@/styles.css?url'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -17,7 +18,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'CopAZa',
       },
     ],
     links: [
@@ -29,6 +30,7 @@ export const Route = createRootRoute({
   }),
 
   shellComponent: RootDocument,
+  notFoundComponent: NotFound,
 })
 
 function RootDocument({ children }: { children: React.ReactNode }) {
@@ -37,7 +39,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="min-h-screen min-w-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <Header />
         {children}
         <TanStackDevtools
