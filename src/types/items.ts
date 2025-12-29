@@ -1,15 +1,15 @@
 export enum ItemType {
-  DRINK,
-  BEER,
-  SODA,
-  SHOOT,
+  DRINK = 'DRINK',
+  BEER = 'BEER',
+  SODA = 'SODA',
+  SHOT = 'SHOT',
 }
 
 export enum SubType {
-  RUM,
-  WHISKY,
-  GIN,
-  VODKA,
+  RUM = 'RUM',
+  WHISKY = 'WHISKY',
+  GIN = 'GIN',
+  VODKA = 'VODKA',
 }
 
 export interface Item {
@@ -19,4 +19,10 @@ export interface Item {
   subType?: SubType
   price: number
   extra?: boolean
+}
+
+export interface Consumption {
+  id: number
+  consumption: string
+  type: ItemType
 }
