@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Corona",
     "price": 4,
-    "type": "beer"
+    "type": "BEER"
   },
   {
     "id": 2,
     "name": "Budweiser",
     "price": 4,
-    "type": "beer"
+    "type": "BEER"
   },
   {
     "id": 3,
     "name": "Heineken",
     "price": 4,
-    "type": "beer"
+    "type": "BEER"
   },
   {
     "id": 4,
     "name": "Ambar triple zero",
     "price": 4,
-    "type": "beer"
+    "type": "BEER"
   }
 ]

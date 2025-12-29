@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Santa Teresa",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Brugal",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Flor de caña 5 años",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Flor de caña 7 años",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 12,
     "extra": true
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Cacique",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Barceló",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Legendario",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Havana 7",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Viejo de Caldas",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "rum",
     "price": 10,
     "extra": false
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Jhony rojo",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "whisky",
     "price": 10,
     "extra": false
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "Jhony negro",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "whisky",
     "price": 12,
     "extra": true
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Jack Daniels",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "whisky",
     "price": 12,
     "extra": true
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Dyc",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "whisky",
     "price": 10,
     "extra": false
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "name": "Ballantines",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "whisky",
     "price": 10,
     "extra": false
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "name": "Bombay Saphir",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "name": "Seagrams",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "name": "Beefeater",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "name": "Puerto de indias",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "name": "Larios",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "name": "Larios rosé",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 10,
     "extra": false
@@ -162,7 +162,7 @@
   {
     "id": 21,
     "name": "Larios 12",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 12,
     "extra": true
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "name": "Martin Miller",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 12,
     "extra": true
@@ -178,7 +178,7 @@
   {
     "id": 23,
     "name": "Brokmans",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 12,
     "extra": true
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "name": "Nordes",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "gin",
     "price": 12,
     "extra": true
@@ -194,7 +194,7 @@
   {
     "id": 25,
     "name": "Absolute",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "vodka",
     "price": 10,
     "extra": false
@@ -202,7 +202,7 @@
   {
     "id": 26,
     "name": "Eristoff",
-    "type": "drink",
+    "type": "DRINK",
     "subtype": "vodka",
     "price": 10,
     "extra": false

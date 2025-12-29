@@ -1,18 +1,22 @@
 [
   {
     "id": 1,
-    "consumption": "Copa"
+    "consumption": "Copa",
+    "type": "DRINK"
   },
   {
     "id": 2,
-    "consumption": "Cerveza"
+    "consumption": "Cerveza",
+    "type": "BEER"
   },
   {
     "id": 3,
-    "consumption": "Refresco"
+    "consumption": "Refresco",
+    "type": "SODA"
   },
   {
     "id": 4,
-    "consumption": "Chupito"
+    "consumption": "Chupito",
+    "type": "SHOT"
   }
 ]

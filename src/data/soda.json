@@ -3,90 +3,90 @@
     "id": 1,
     "name": "Coca Cola",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 2,
     "name": "Sprite",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 3,
     "name": "Fanta naranja",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 4,
     "name": "Fanta limón",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 5,
     "name": "Colca Cola Zero",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 6,
     "name": "Tónica Nordic",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 7,
     "name": "Tónica Bliss Rosa",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 8,
     "name": "Tónica Bliss Azul",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 9,
     "name": "Tónica Bliss Melocotón Menta",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 10,
     "name": "Tónica Shewppes Rosa Zero",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 11,
     "name": "Fuztea / Nestea",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 12,
     "name": "Fuztea maracuyá",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 13,
     "name": "Aqurius limón",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 14,
     "name": "Aqurius naranja",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   },
   {
     "id": 15,
     "name": "Redbull",
     "price": 3,
-    "type": "soda"
+    "type": "SODA"
   }
 ]
